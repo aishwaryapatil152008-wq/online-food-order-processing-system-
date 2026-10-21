@@ -1,0 +1,2 @@
+# Uses only the Python standard library (Python 3.8+).
+# No extra packages are needed.
