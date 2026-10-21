@@ -1,26 +1,14 @@
 # 🍔 Online Food Order Processing System
 
-🐍 A beginner-friendly **Python mini project** that works like a small food-delivery app: browse a menu, build a cart, place an order, and let the "kitchen" process orders in the right sequence.
+> 👥 **Team 
 
-🎓 B.Tech Mini Project (Data Structures & Algorithms Lab)
+- Yash Sachin Bonde (32251)
+- Sakshi Sunil Zunzunwala (32252)
+- Aishwarya Pramod Patil (32253)
+- Vicky Harishkumar Badmera (32254)
+- Divya Dilip Tirodkar (32255)
 
-> 👥 **Team / College / Guide:** add your names, roll numbers, college and guide here before submitting.
-
----
-
-## 📖 1. What is this project?
-
-When many customers order food at the same time, the restaurant must decide **which order to cook first** 🍳. This project simulates that:
-
-- 🛒 Customers add items to a **cart** (with an **undo** button)
-- 🧾 The system creates a **bill** (GST, delivery fee, coupons)
-- 📋 Orders go into a **kitchen queue** where ⚡ **express orders** are cooked before normal ones
-- 🚚 Each order moves through stages: `PLACED → PREPARING → OUT FOR DELIVERY → DELIVERED`
-- 💾 Orders are saved in a file, so they are not lost when you close the program
-
-It runs in the **terminal** 💻 and uses **only the Python standard library** – nothing to install!
-
-## ✨ 2. Features
+## ✨1. Features
 
 | 🎯 Feature | 📝 Description |
 |---|---|
@@ -35,7 +23,7 @@ It runs in the **terminal** 💻 and uses **only the Python standard library** �
 | ✅ Input checks | Phone must be 10 digits, quantity limits, empty cart and invalid IDs are handled |
 | 🧪 Unit tests | 9 automatic tests included |
 
-## 🧠 3. Data structures used (the DSA part)
+## 🧠 2. Data structures used (the DSA part)
 
 | 🏗️ Data structure | 📍 Where it is used | 💡 Why |
 |---|---|---|
@@ -48,7 +36,7 @@ It runs in the **terminal** 💻 and uses **only the Python standard library** �
 
 **⏱️ Time complexity:** add to queue `O(log n)`, take next order `O(log n)`, find order by ID `O(1)`, cart add/undo `O(1)`.
 
-## 📁 4. Project structure
+## 📁 3. Project structure
 
 ```
 online-food-order-processing/
@@ -67,7 +55,7 @@ online-food-order-processing/
 └── 📘 README.md
 ```
 
-## ▶️ 5. How to run
+## ▶️ 4. How to run
 
 You need **🐍 Python 3.8 or newer**.
 
@@ -131,7 +119,7 @@ Express fee    30.00
 TOTAL         649.92
 ```
 
-## ⚠️ 7. Limitations
+## ⚠️ 6. Limitations
 
 - 💻 Console only – no website or mobile app
 - 💳 No real payment, login or live delivery tracking
@@ -139,7 +127,7 @@ TOTAL         649.92
 - 👤 One user at a time (no multiple users at once)
 - 💾 Data is stored in a simple JSON file, not a real database
 
-## 🚀 8. Future improvements
+## 🚀 7. Future improvements
 
 - 🌐 Web app using Flask or Django
 - 🗄️ Database such as SQLite or MySQL
@@ -148,20 +136,3 @@ TOTAL         649.92
 - ⏱️ Estimated delivery time and delivery partner assignment
 - ⭐ Ratings and reviews
 - 📱 Mobile app
-
-## 🐙 9. Uploading to GitHub
-
-```bash
-cd online-food-order-processing
-git init
-git add .
-git commit -m "Online Food Order Processing System"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-💡 Create the empty repository on github.com first, then use its URL above.
-
----
-
-⭐ If you like this project, give it a star on GitHub!
